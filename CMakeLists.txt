@@ -6,7 +6,7 @@ find_package(GTest REQUIRED)
 
 
 
-add_executable(Test_test src/lib.cpp test/test.cpp)
+add_executable(Test_test src/lib.h src/lib.cpp test/test.cpp)
 
 include_directories(${GTEST_INCLUDE_DIRS})
 find_package(GTest REQUIRED)

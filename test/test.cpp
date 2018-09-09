@@ -4,7 +4,7 @@
 
 #include <gtest/gtest.h>
 
-#include "../src/lib.cpp"
+#include "../src/lib.h"
 
 TEST(testGroup1, test1){
     ASSERT_EQ(find_sum(2, 3), 5);
