@@ -19,7 +19,7 @@ TEST(testGroup2, test1){
 }
 
 TEST(testGroup2, test2){
-    ASSERT_EQ(find_sum(3, 3), 6);
+    ASSERT_EQ(find_sum(3, 3), 6p);
 }
 
 
